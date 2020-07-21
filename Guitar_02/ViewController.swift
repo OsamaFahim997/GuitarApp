@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var PlayBTN: UIButton!
+    @IBOutlet weak var LessonsBTN: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,4 +22,3 @@ class ViewController: UIViewController {
 
 
 }
-

@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01DDDAB814ADED17F73ECC5C /* Pods_Guitar_02Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D5A6AB15129E327D98512 /* Pods_Guitar_02Tests.framework */; };
+		8D0FF0EC5E9D9706C9620966 /* Pods_Guitar_02UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B2B3138165B80653EE9C41 /* Pods_Guitar_02UITests.framework */; };
+		969AF13B22C90BDF001C172B /* Second slide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 969AF13722C90BDE001C172B /* Second slide.wav */; };
+		969AF13C22C90BDF001C172B /* First slide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 969AF13822C90BDF001C172B /* First slide.wav */; };
+		969AF13D22C90BDF001C172B /* Fourth slide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 969AF13922C90BDF001C172B /* Fourth slide.wav */; };
+		969AF13E22C90BDF001C172B /* Third slide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 969AF13A22C90BDF001C172B /* Third slide.wav */; };
+		96BCB4EB22CE805E009BA8E2 /* MusicTones12.db in Resources */ = {isa = PBXBuildFile; fileRef = 96BCB4EA22CE7FC8009BA8E2 /* MusicTones12.db */; };
+		96CB352622BAAB110020F702 /* RecordingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CB352522BAAB110020F702 /* RecordingListViewController.swift */; };
+		96CB352822BAB0060020F702 /* RTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CB352722BAB0060020F702 /* RTableViewCell.swift */; };
+		96CB352A22BAB3290020F702 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CB352922BAB3290020F702 /* PlayViewController.swift */; };
+		96CB352D22BBE6220020F702 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CB352C22BBE6220020F702 /* DB.swift */; };
+		A52F319F56D8C71DAEF666C6 /* Pods_Guitar_02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3150D0539D357142F19125D /* Pods_Guitar_02.framework */; };
 		AF17DFF6225A16760065E9F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17DFF5225A16760065E9F0 /* AppDelegate.swift */; };
 		AF17DFF8225A16760065E9F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17DFF7225A16760065E9F0 /* ViewController.swift */; };
 		AF17DFFB225A16760065E9F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF17DFF9225A16760065E9F0 /* Main.storyboard */; };
@@ -14,6 +26,64 @@
 		AF17E000225A16780065E9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF17DFFE225A16780065E9F0 /* LaunchScreen.storyboard */; };
 		AF17E00B225A16780065E9F0 /* Guitar_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E00A225A16780065E9F0 /* Guitar_02Tests.swift */; };
 		AF17E016225A16780065E9F0 /* Guitar_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E015225A16780065E9F0 /* Guitar_02UITests.swift */; };
+		AF17E025225A16A30065E9F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF17E024225A16A30065E9F0 /* AVFoundation.framework */; };
+		AF17E0292267A42C0065E9F0 /* GuitarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E0282267A42C0065E9F0 /* GuitarViewController.swift */; };
+		AF17E02B2267A5EC0065E9F0 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E02A2267A5EC0065E9F0 /* LessonViewController.swift */; };
+		AF17E5CB23DA207F00AAA276 /* D3_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF17E5C723DA207E00AAA276 /* D3_1.wav */; };
+		AF17E5CC23DA207F00AAA276 /* B3_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF17E5C823DA207E00AAA276 /* B3_3.wav */; };
+		AF17E5CD23DA207F00AAA276 /* E4_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF17E5C923DA207E00AAA276 /* E4_4.wav */; };
+		AF17E5D023DA219C00AAA276 /* G3_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF17E5CF23DA219C00AAA276 /* G3_2.wav */; };
+		AF2DEC41229E7EAC00548492 /* FsMinorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2DEC40229E7EAC00548492 /* FsMinorViewController.swift */; };
+		AF30FE4B23D626A9006E12A1 /* Exit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30FE4A23D626A9006E12A1 /* Exit+Extension.swift */; };
+		AF3C18E523D6212200C9FD8B /* B#.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18E023D6212200C9FD8B /* B#.wav */; };
+		AF3C18E623D6212200C9FD8B /* C4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18E123D6212200C9FD8B /* C4.wav */; };
+		AF3C18E723D6212200C9FD8B /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18E223D6212200C9FD8B /* D.wav */; };
+		AF3C18E823D6212200C9FD8B /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18E323D6212200C9FD8B /* A.wav */; };
+		AF3C18EE23D6213500C9FD8B /* E4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18E923D6213500C9FD8B /* E4.wav */; };
+		AF3C18EF23D6213500C9FD8B /* G#.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18EA23D6213500C9FD8B /* G#.wav */; };
+		AF3C18F023D6213500C9FD8B /* D4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18EB23D6213500C9FD8B /* D4.wav */; };
+		AF3C18F123D6213500C9FD8B /* D#.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18EC23D6213500C9FD8B /* D#.wav */; };
+		AF3C18F223D6213500C9FD8B /* A#.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18ED23D6213500C9FD8B /* A#.wav */; };
+		AF3C18F823D6214B00C9FD8B /* G4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18F323D6214B00C9FD8B /* G4.wav */; };
+		AF3C18F923D6214B00C9FD8B /* B4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18F423D6214B00C9FD8B /* B4.wav */; };
+		AF3C18FA23D6214B00C9FD8B /* G#4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18F523D6214B00C9FD8B /* G#4.wav */; };
+		AF3C18FB23D6214B00C9FD8B /* A4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18F623D6214B00C9FD8B /* A4.wav */; };
+		AF3C18FC23D6214B00C9FD8B /* D#4.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF3C18F723D6214B00C9FD8B /* D#4.wav */; };
+		AF4EEE9422C96346006E41B6 /* CMinor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4EEE9322C96346006E41B6 /* CMinor.mp3 */; };
+		AF4EEE9822C9635F006E41B6 /* FMajor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4EEE9722C9635F006E41B6 /* FMajor.mp3 */; };
+		AF4EEE9A22C96363006E41B6 /* G#Major.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4EEE9922C96363006E41B6 /* G#Major.mp3 */; };
+		AF4EEE9C22C96367006E41B6 /* GMajor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4EEE9B22C96367006E41B6 /* GMajor.mp3 */; };
+		AF4EEE9E22C9636B006E41B6 /* GMinor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4EEE9D22C9636B006E41B6 /* GMinor.mp3 */; };
+		AF4EEEA022C96A83006E41B6 /* F#Minor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4EEE9F22C96A83006E41B6 /* F#Minor.mp3 */; };
+		AF53F3022285FBD000CD3ADD /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F3012285FBD000CD3ADD /* LessonsViewController.swift */; };
+		AF53F3042285FDBB00CD3ADD /* AminorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F3032285FDBB00CD3ADD /* AminorViewController.swift */; };
+		AF53F306228601D300CD3ADD /* BminorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F305228601D300CD3ADD /* BminorViewController.swift */; };
+		AF53F3082286054A00CD3ADD /* CmajorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F3072286054A00CD3ADD /* CmajorViewController.swift */; };
+		AF53F30A2286063000CD3ADD /* FmajorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F3092286063000CD3ADD /* FmajorViewController.swift */; };
+		AF53F30C228606D500CD3ADD /* F#minorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F30B228606D500CD3ADD /* F#minorViewController.swift */; };
+		AF53F30E2286074500CD3ADD /* GmajorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F30D2286074500CD3ADD /* GmajorViewController.swift */; };
+		AF53F3102286084100CD3ADD /* GminorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F30F2286084100CD3ADD /* GminorViewController.swift */; };
+		AF53F312228608F800CD3ADD /* G#majorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53F311228608F800CD3ADD /* G#majorViewController.swift */; };
+		AF7AC13523D63B7B008663B6 /* F3.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF7AC13023D63B7B008663B6 /* F3.wav */; };
+		AF7AC13623D63B7B008663B6 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF7AC13123D63B7B008663B6 /* E.wav */; };
+		AF7AC13723D63B7B008663B6 /* E3.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF7AC13223D63B7B008663B6 /* E3.wav */; };
+		AF7AC13823D63B7B008663B6 /* G3.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF7AC13323D63B7B008663B6 /* G3.wav */; };
+		AF7AC13923D63B7B008663B6 /* A3.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF7AC13423D63B7B008663B6 /* A3.wav */; };
+		AF7AC13B23D63C0C008663B6 /* E2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF7AC13A23D63C0C008663B6 /* E2.wav */; };
+		AF7E107C2268F2F70096CB14 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7E107B2268F2F70096CB14 /* RecordViewController.swift */; };
+		AF848DE823CCA2A90042F9C3 /* Extension+UIViewControler .swift in Sources */ = {isa = PBXBuildFile; fileRef = AF848DE723CCA2A90042F9C3 /* Extension+UIViewControler .swift */; };
+		AF848DEA23CCFA7C0042F9C3 /* Extension2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF848DE923CCFA7C0042F9C3 /* Extension2.swift */; };
+		AFD787A922BCB49200528574 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD787A822BCB49200528574 /* DetailsViewController.swift */; };
+		AFD787B422BCC0F600528574 /* AMajor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFD787B122BCC0F600528574 /* AMajor.mp3 */; };
+		AFD787B522BCC0F600528574 /* AMinor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFD787B222BCC0F600528574 /* AMinor.mp3 */; };
+		AFD787B622BCC0F600528574 /* BMinor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFD787B322BCC0F600528574 /* BMinor.mp3 */; };
+		F102371C23EEC2E40033D41B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102371A23EEC2E30033D41B /* Item.swift */; };
+		F102371D23EEC2E40033D41B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102371B23EEC2E40033D41B /* Category.swift */; };
+		F102372123EF181E0033D41B /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102371E23EF181D0033D41B /* SwipeTableViewController.swift */; };
+		F102372323EF181E0033D41B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102372023EF181E0033D41B /* CategoryViewController.swift */; };
+		F102372523EF1D2C0033D41B /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102372423EF1D2C0033D41B /* RecordingViewController.swift */; };
+		F102372723EF68FA0033D41B /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102372623EF68FA0033D41B /* SongsTableViewController.swift */; };
+		F102372923F0AD0F0033D41B /* NodesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102372823F0AD0F0033D41B /* NodesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +104,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3802C83CE67B8D86480322 /* Pods-Guitar_02Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar_02Tests.release.xcconfig"; path = "Target Support Files/Pods-Guitar_02Tests/Pods-Guitar_02Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1B502767C3B2550FADD7443A /* Pods-Guitar_02Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar_02Tests.debug.xcconfig"; path = "Target Support Files/Pods-Guitar_02Tests/Pods-Guitar_02Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		372D5A6AB15129E327D98512 /* Pods_Guitar_02Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitar_02Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B2B3138165B80653EE9C41 /* Pods_Guitar_02UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitar_02UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8FDC51F188A19583013D12 /* Pods-Guitar_02UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar_02UITests.release.xcconfig"; path = "Target Support Files/Pods-Guitar_02UITests/Pods-Guitar_02UITests.release.xcconfig"; sourceTree = "<group>"; };
+		86034310FC9688543F178511 /* Pods-Guitar_02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar_02.release.xcconfig"; path = "Target Support Files/Pods-Guitar_02/Pods-Guitar_02.release.xcconfig"; sourceTree = "<group>"; };
+		88E4180ADEAC1292DF27F5F1 /* Pods-Guitar_02UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar_02UITests.debug.xcconfig"; path = "Target Support Files/Pods-Guitar_02UITests/Pods-Guitar_02UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		969AF13722C90BDE001C172B /* Second slide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Second slide.wav"; sourceTree = "<group>"; };
+		969AF13822C90BDF001C172B /* First slide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "First slide.wav"; sourceTree = "<group>"; };
+		969AF13922C90BDF001C172B /* Fourth slide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fourth slide.wav"; sourceTree = "<group>"; };
+		969AF13A22C90BDF001C172B /* Third slide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Third slide.wav"; sourceTree = "<group>"; };
+		96BCB4EA22CE7FC8009BA8E2 /* MusicTones12.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = MusicTones12.db; sourceTree = "<group>"; };
+		96CB352522BAAB110020F702 /* RecordingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListViewController.swift; sourceTree = "<group>"; };
+		96CB352722BAB0060020F702 /* RTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTableViewCell.swift; sourceTree = "<group>"; };
+		96CB352922BAB3290020F702 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		96CB352C22BBE6220020F702 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		A3150D0539D357142F19125D /* Pods_Guitar_02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitar_02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17DFF2225A16760065E9F0 /* Guitar_02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guitar_02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17DFF5225A16760065E9F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF17DFF7225A16760065E9F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +134,65 @@
 		AF17E011225A16780065E9F0 /* Guitar_02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guitar_02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17E015225A16780065E9F0 /* Guitar_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_02UITests.swift; sourceTree = "<group>"; };
 		AF17E017225A16780065E9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF17E024225A16A30065E9F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AF17E0282267A42C0065E9F0 /* GuitarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarViewController.swift; sourceTree = "<group>"; };
+		AF17E02A2267A5EC0065E9F0 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		AF17E5C723DA207E00AAA276 /* D3_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D3_1.wav; path = "Split sounds/Last area/D3_1.wav"; sourceTree = SOURCE_ROOT; };
+		AF17E5C823DA207E00AAA276 /* B3_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B3_3.wav; path = "Split sounds/Last area/B3_3.wav"; sourceTree = SOURCE_ROOT; };
+		AF17E5C923DA207E00AAA276 /* E4_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E4_4.wav; path = "Split sounds/Last area/E4_4.wav"; sourceTree = SOURCE_ROOT; };
+		AF17E5CF23DA219C00AAA276 /* G3_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G3_2.wav; path = "Split sounds/Last area/G3_2.wav"; sourceTree = SOURCE_ROOT; };
+		AF2DEC40229E7EAC00548492 /* FsMinorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FsMinorViewController.swift; sourceTree = "<group>"; };
+		AF30FE4A23D626A9006E12A1 /* Exit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exit+Extension.swift"; sourceTree = "<group>"; };
+		AF3C18E023D6212200C9FD8B /* B#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "B#.wav"; path = "Split sounds/Second String/B#.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18E123D6212200C9FD8B /* C4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C4.wav; path = "Split sounds/Second String/C4.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18E223D6212200C9FD8B /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = "Split sounds/Second String/D.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18E323D6212200C9FD8B /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A.wav; path = "Split sounds/Second String/A.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18E923D6213500C9FD8B /* E4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E4.wav; path = "Split sounds/Third String/E4.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18EA23D6213500C9FD8B /* G#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "G#.wav"; path = "Split sounds/Third String/G#.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18EB23D6213500C9FD8B /* D4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D4.wav; path = "Split sounds/Third String/D4.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18EC23D6213500C9FD8B /* D#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "D#.wav"; path = "Split sounds/Third String/D#.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18ED23D6213500C9FD8B /* A#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "A#.wav"; path = "Split sounds/Third String/A#.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18F323D6214B00C9FD8B /* G4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G4.wav; path = "Split sounds/Forth String/G4.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18F423D6214B00C9FD8B /* B4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B4.wav; path = "Split sounds/Forth String/B4.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18F523D6214B00C9FD8B /* G#4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "G#4.wav"; path = "Split sounds/Forth String/G#4.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18F623D6214B00C9FD8B /* A4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A4.wav; path = "Split sounds/Forth String/A4.wav"; sourceTree = SOURCE_ROOT; };
+		AF3C18F723D6214B00C9FD8B /* D#4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "D#4.wav"; path = "Split sounds/Forth String/D#4.wav"; sourceTree = SOURCE_ROOT; };
+		AF4EEE9322C96346006E41B6 /* CMinor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CMinor.mp3; path = "Split sounds/Lessons Sound/CMinor.mp3"; sourceTree = SOURCE_ROOT; };
+		AF4EEE9722C9635F006E41B6 /* FMajor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FMajor.mp3; path = "Split sounds/Lessons Sound/FMajor.mp3"; sourceTree = SOURCE_ROOT; };
+		AF4EEE9922C96363006E41B6 /* G#Major.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G#Major.mp3"; path = "Split sounds/Lessons Sound/G#Major.mp3"; sourceTree = SOURCE_ROOT; };
+		AF4EEE9B22C96367006E41B6 /* GMajor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GMajor.mp3; path = "Split sounds/Lessons Sound/GMajor.mp3"; sourceTree = SOURCE_ROOT; };
+		AF4EEE9D22C9636B006E41B6 /* GMinor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GMinor.mp3; path = "Split sounds/Lessons Sound/GMinor.mp3"; sourceTree = SOURCE_ROOT; };
+		AF4EEE9F22C96A83006E41B6 /* F#Minor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#Minor.mp3"; path = "Split sounds/Lessons Sound/F#Minor.mp3"; sourceTree = SOURCE_ROOT; };
+		AF53F3012285FBD000CD3ADD /* LessonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		AF53F3032285FDBB00CD3ADD /* AminorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AminorViewController.swift; sourceTree = "<group>"; };
+		AF53F305228601D300CD3ADD /* BminorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BminorViewController.swift; sourceTree = "<group>"; };
+		AF53F3072286054A00CD3ADD /* CmajorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CmajorViewController.swift; sourceTree = "<group>"; };
+		AF53F3092286063000CD3ADD /* FmajorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FmajorViewController.swift; sourceTree = "<group>"; };
+		AF53F30B228606D500CD3ADD /* F#minorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "F#minorViewController.swift"; sourceTree = "<group>"; };
+		AF53F30D2286074500CD3ADD /* GmajorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmajorViewController.swift; sourceTree = "<group>"; };
+		AF53F30F2286084100CD3ADD /* GminorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GminorViewController.swift; sourceTree = "<group>"; };
+		AF53F311228608F800CD3ADD /* G#majorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "G#majorViewController.swift"; sourceTree = "<group>"; };
+		AF7AC13023D63B7B008663B6 /* F3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F3.wav; path = "Split sounds/First String/F3.wav"; sourceTree = SOURCE_ROOT; };
+		AF7AC13123D63B7B008663B6 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E.wav; path = "Split sounds/First String/E.wav"; sourceTree = SOURCE_ROOT; };
+		AF7AC13223D63B7B008663B6 /* E3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E3.wav; path = "Split sounds/First String/E3.wav"; sourceTree = SOURCE_ROOT; };
+		AF7AC13323D63B7B008663B6 /* G3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G3.wav; path = "Split sounds/First String/G3.wav"; sourceTree = SOURCE_ROOT; };
+		AF7AC13423D63B7B008663B6 /* A3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A3.wav; path = "Split sounds/First String/A3.wav"; sourceTree = SOURCE_ROOT; };
+		AF7AC13A23D63C0C008663B6 /* E2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E2.wav; path = "Split sounds/Second String/E2.wav"; sourceTree = SOURCE_ROOT; };
+		AF7E107B2268F2F70096CB14 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		AF848DE723CCA2A90042F9C3 /* Extension+UIViewControler .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewControler .swift"; sourceTree = "<group>"; };
+		AF848DE923CCFA7C0042F9C3 /* Extension2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension2.swift; sourceTree = "<group>"; };
+		AFD787A822BCB49200528574 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AFD787B122BCC0F600528574 /* AMajor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AMajor.mp3; path = "Split sounds/Lessons Sound/AMajor.mp3"; sourceTree = SOURCE_ROOT; };
+		AFD787B222BCC0F600528574 /* AMinor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AMinor.mp3; path = "Split sounds/Lessons Sound/AMinor.mp3"; sourceTree = SOURCE_ROOT; };
+		AFD787B322BCC0F600528574 /* BMinor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BMinor.mp3; path = "Split sounds/Lessons Sound/BMinor.mp3"; sourceTree = SOURCE_ROOT; };
+		B4D2B27BACA2BB6F5AFB9DBF /* Pods-Guitar_02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar_02.debug.xcconfig"; path = "Target Support Files/Pods-Guitar_02/Pods-Guitar_02.debug.xcconfig"; sourceTree = "<group>"; };
+		F102371A23EEC2E30033D41B /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F102371B23EEC2E40033D41B /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F102371E23EF181D0033D41B /* SwipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		F102372023EF181E0033D41B /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		F102372423EF1D2C0033D41B /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		F102372623EF68FA0033D41B /* SongsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		F102372823F0AD0F0033D41B /* NodesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +200,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF17E025225A16A30065E9F0 /* AVFoundation.framework in Frameworks */,
+				A52F319F56D8C71DAEF666C6 /* Pods_Guitar_02.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DDDAB814ADED17F73ECC5C /* Pods_Guitar_02Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +217,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0FF0EC5E9D9706C9620966 /* Pods_Guitar_02UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		728A0FDE30AF66BA57D99B51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4D2B27BACA2BB6F5AFB9DBF /* Pods-Guitar_02.debug.xcconfig */,
+				86034310FC9688543F178511 /* Pods-Guitar_02.release.xcconfig */,
+				1B502767C3B2550FADD7443A /* Pods-Guitar_02Tests.debug.xcconfig */,
+				0B3802C83CE67B8D86480322 /* Pods-Guitar_02Tests.release.xcconfig */,
+				88E4180ADEAC1292DF27F5F1 /* Pods-Guitar_02UITests.debug.xcconfig */,
+				6F8FDC51F188A19583013D12 /* Pods-Guitar_02UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96CB352B22BBE6040020F702 /* DbManager */ = {
+			isa = PBXGroup;
+			children = (
+				96BCB4EA22CE7FC8009BA8E2 /* MusicTones12.db */,
+				96CB352C22BBE6220020F702 /* DB.swift */,
+			);
+			path = DbManager;
+			sourceTree = "<group>";
+		};
 		AF17DFE9225A16750065E9F0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +253,8 @@
 				AF17E009225A16780065E9F0 /* Guitar_02Tests */,
 				AF17E014225A16780065E9F0 /* Guitar_02UITests */,
 				AF17DFF3225A16760065E9F0 /* Products */,
+				AF17E023225A16A30065E9F0 /* Frameworks */,
+				728A0FDE30AF66BA57D99B51 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +271,28 @@
 		AF17DFF4225A16760065E9F0 /* Guitar_02 */ = {
 			isa = PBXGroup;
 			children = (
+				F102371923EEC0A90033D41B /* Playlist */,
+				96CB352B22BBE6040020F702 /* DbManager */,
 				AF17DFF5225A16760065E9F0 /* AppDelegate.swift */,
 				AF17DFF7225A16760065E9F0 /* ViewController.swift */,
 				AF17DFF9225A16760065E9F0 /* Main.storyboard */,
+				AF30FE4A23D626A9006E12A1 /* Exit+Extension.swift */,
+				AFD787A822BCB49200528574 /* DetailsViewController.swift */,
+				AF17E0282267A42C0065E9F0 /* GuitarViewController.swift */,
+				AF17E02A2267A5EC0065E9F0 /* LessonViewController.swift */,
+				96CB352522BAAB110020F702 /* RecordingListViewController.swift */,
+				AF2DEC40229E7EAC00548492 /* FsMinorViewController.swift */,
+				AF7E107B2268F2F70096CB14 /* RecordViewController.swift */,
+				96CB352922BAB3290020F702 /* PlayViewController.swift */,
+				96CB352722BAB0060020F702 /* RTableViewCell.swift */,
+				AF848DE723CCA2A90042F9C3 /* Extension+UIViewControler .swift */,
+				AF848DE923CCFA7C0042F9C3 /* Extension2.swift */,
 				AF17DFFC225A16780065E9F0 /* Assets.xcassets */,
 				AF17DFFE225A16780065E9F0 /* LaunchScreen.storyboard */,
 				AF17E001225A16780065E9F0 /* Info.plist */,
+				AFA2310F22AC41FE0015E181 /* Sounds */,
+				AF53F31322860ACC00CD3ADD /* Lessons */,
+				F102372823F0AD0F0033D41B /* NodesData.swift */,
 			);
 			path = Guitar_02;
 			sourceTree = "<group>";
@@ -125,6 +315,139 @@
 			path = Guitar_02UITests;
 			sourceTree = "<group>";
 		};
+		AF17E023225A16A30065E9F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF17E024225A16A30065E9F0 /* AVFoundation.framework */,
+				A3150D0539D357142F19125D /* Pods_Guitar_02.framework */,
+				372D5A6AB15129E327D98512 /* Pods_Guitar_02Tests.framework */,
+				69B2B3138165B80653EE9C41 /* Pods_Guitar_02UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF17E5BC23DA18AF00AAA276 /* Last Area */ = {
+			isa = PBXGroup;
+			children = (
+				AF17E5C823DA207E00AAA276 /* B3_3.wav */,
+				AF17E5C723DA207E00AAA276 /* D3_1.wav */,
+				AF17E5C923DA207E00AAA276 /* E4_4.wav */,
+				AF17E5CF23DA219C00AAA276 /* G3_2.wav */,
+			);
+			path = "Last Area";
+			sourceTree = "<group>";
+		};
+		AF53F31322860ACC00CD3ADD /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				AF53F30D2286074500CD3ADD /* GmajorViewController.swift */,
+				AF53F311228608F800CD3ADD /* G#majorViewController.swift */,
+				AF53F30F2286084100CD3ADD /* GminorViewController.swift */,
+				AF53F3092286063000CD3ADD /* FmajorViewController.swift */,
+				AF53F30B228606D500CD3ADD /* F#minorViewController.swift */,
+				AF53F3072286054A00CD3ADD /* CmajorViewController.swift */,
+				AF53F305228601D300CD3ADD /* BminorViewController.swift */,
+				AF53F3032285FDBB00CD3ADD /* AminorViewController.swift */,
+				AF53F3012285FBD000CD3ADD /* LessonsViewController.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		AFA2310222AC41E50015E181 /* First String */ = {
+			isa = PBXGroup;
+			children = (
+				AF7AC13423D63B7B008663B6 /* A3.wav */,
+				AF7AC13123D63B7B008663B6 /* E.wav */,
+				AF7AC13223D63B7B008663B6 /* E3.wav */,
+				AF7AC13023D63B7B008663B6 /* F3.wav */,
+				AF7AC13323D63B7B008663B6 /* G3.wav */,
+			);
+			name = "First String";
+			path = "Guitar_02/Sounds/First String";
+			sourceTree = SOURCE_ROOT;
+		};
+		AFA2310F22AC41FE0015E181 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				969AF13822C90BDF001C172B /* First slide.wav */,
+				969AF13922C90BDF001C172B /* Fourth slide.wav */,
+				969AF13722C90BDE001C172B /* Second slide.wav */,
+				969AF13A22C90BDF001C172B /* Third slide.wav */,
+				AF17E5BC23DA18AF00AAA276 /* Last Area */,
+				AFD787AA22BCBB9900528574 /* Lessons Sounds */,
+				AFAB173D22B43D2B000ECA72 /* Forth String */,
+				AFAB172E22B43844000ECA72 /* Third String */,
+				AFAB170B22B434F0000ECA72 /* Second String */,
+				AFA2310222AC41E50015E181 /* First String */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AFAB170B22B434F0000ECA72 /* Second String */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C18E323D6212200C9FD8B /* A.wav */,
+				AF3C18E023D6212200C9FD8B /* B#.wav */,
+				AF7AC13A23D63C0C008663B6 /* E2.wav */,
+				AF3C18E123D6212200C9FD8B /* C4.wav */,
+				AF3C18E223D6212200C9FD8B /* D.wav */,
+			);
+			path = "Second String";
+			sourceTree = "<group>";
+		};
+		AFAB172E22B43844000ECA72 /* Third String */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C18ED23D6213500C9FD8B /* A#.wav */,
+				AF3C18EC23D6213500C9FD8B /* D#.wav */,
+				AF3C18EB23D6213500C9FD8B /* D4.wav */,
+				AF3C18E923D6213500C9FD8B /* E4.wav */,
+				AF3C18EA23D6213500C9FD8B /* G#.wav */,
+			);
+			path = "Third String";
+			sourceTree = "<group>";
+		};
+		AFAB173D22B43D2B000ECA72 /* Forth String */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C18F623D6214B00C9FD8B /* A4.wav */,
+				AF3C18F423D6214B00C9FD8B /* B4.wav */,
+				AF3C18F723D6214B00C9FD8B /* D#4.wav */,
+				AF3C18F523D6214B00C9FD8B /* G#4.wav */,
+				AF3C18F323D6214B00C9FD8B /* G4.wav */,
+			);
+			path = "Forth String";
+			sourceTree = "<group>";
+		};
+		AFD787AA22BCBB9900528574 /* Lessons Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AFD787B122BCC0F600528574 /* AMajor.mp3 */,
+				AFD787B222BCC0F600528574 /* AMinor.mp3 */,
+				AFD787B322BCC0F600528574 /* BMinor.mp3 */,
+				AF4EEE9322C96346006E41B6 /* CMinor.mp3 */,
+				AF4EEE9F22C96A83006E41B6 /* F#Minor.mp3 */,
+				AF4EEE9722C9635F006E41B6 /* FMajor.mp3 */,
+				AF4EEE9922C96363006E41B6 /* G#Major.mp3 */,
+				AF4EEE9B22C96367006E41B6 /* GMajor.mp3 */,
+				AF4EEE9D22C9636B006E41B6 /* GMinor.mp3 */,
+			);
+			path = "Lessons Sounds";
+			sourceTree = "<group>";
+		};
+		F102371923EEC0A90033D41B /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				F102371B23EEC2E40033D41B /* Category.swift */,
+				F102372023EF181E0033D41B /* CategoryViewController.swift */,
+				F102371E23EF181D0033D41B /* SwipeTableViewController.swift */,
+				F102371A23EEC2E30033D41B /* Item.swift */,
+				F102372423EF1D2C0033D41B /* RecordingViewController.swift */,
+				F102372623EF68FA0033D41B /* SongsTableViewController.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +455,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF17E01A225A16780065E9F0 /* Build configuration list for PBXNativeTarget "Guitar_02" */;
 			buildPhases = (
+				CF8EE7B8DE27AF026210B185 /* [CP] Check Pods Manifest.lock */,
 				AF17DFEE225A16760065E9F0 /* Sources */,
 				AF17DFEF225A16760065E9F0 /* Frameworks */,
 				AF17DFF0225A16760065E9F0 /* Resources */,
+				3F4084F5F03E3D5FF4A951B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +474,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF17E01D225A16780065E9F0 /* Build configuration list for PBXNativeTarget "Guitar_02Tests" */;
 			buildPhases = (
+				EA6734A9859DA8D54B4A5B0D /* [CP] Check Pods Manifest.lock */,
 				AF17E002225A16780065E9F0 /* Sources */,
 				AF17E003225A16780065E9F0 /* Frameworks */,
 				AF17E004225A16780065E9F0 /* Resources */,
@@ -167,6 +493,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF17E020225A16780065E9F0 /* Build configuration list for PBXNativeTarget "Guitar_02UITests" */;
 			buildPhases = (
+				E6272DB642D4B40C28BB7FA4 /* [CP] Check Pods Manifest.lock */,
 				AF17E00D225A16780065E9F0 /* Sources */,
 				AF17E00E225A16780065E9F0 /* Frameworks */,
 				AF17E00F225A16780065E9F0 /* Resources */,
@@ -229,9 +556,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7AC13723D63B7B008663B6 /* E3.wav in Resources */,
+				AF3C18E823D6212200C9FD8B /* A.wav in Resources */,
+				AF3C18E523D6212200C9FD8B /* B#.wav in Resources */,
+				96BCB4EB22CE805E009BA8E2 /* MusicTones12.db in Resources */,
+				969AF13D22C90BDF001C172B /* Fourth slide.wav in Resources */,
+				AF4EEE9E22C9636B006E41B6 /* GMinor.mp3 in Resources */,
+				AF3C18F123D6213500C9FD8B /* D#.wav in Resources */,
+				AF3C18F223D6213500C9FD8B /* A#.wav in Resources */,
+				AF4EEE9C22C96367006E41B6 /* GMajor.mp3 in Resources */,
+				AF4EEE9422C96346006E41B6 /* CMinor.mp3 in Resources */,
+				AFD787B522BCC0F600528574 /* AMinor.mp3 in Resources */,
+				AF3C18F023D6213500C9FD8B /* D4.wav in Resources */,
+				AF3C18F923D6214B00C9FD8B /* B4.wav in Resources */,
+				AFD787B622BCC0F600528574 /* BMinor.mp3 in Resources */,
+				AF3C18EE23D6213500C9FD8B /* E4.wav in Resources */,
+				969AF13E22C90BDF001C172B /* Third slide.wav in Resources */,
+				AF17E5CD23DA207F00AAA276 /* E4_4.wav in Resources */,
 				AF17E000225A16780065E9F0 /* LaunchScreen.storyboard in Resources */,
+				AF7AC13923D63B7B008663B6 /* A3.wav in Resources */,
 				AF17DFFD225A16780065E9F0 /* Assets.xcassets in Resources */,
+				AF7AC13523D63B7B008663B6 /* F3.wav in Resources */,
+				AF3C18F823D6214B00C9FD8B /* G4.wav in Resources */,
+				AF3C18FC23D6214B00C9FD8B /* D#4.wav in Resources */,
+				AF4EEE9A22C96363006E41B6 /* G#Major.mp3 in Resources */,
+				AF7AC13623D63B7B008663B6 /* E.wav in Resources */,
+				AF3C18FB23D6214B00C9FD8B /* A4.wav in Resources */,
 				AF17DFFB225A16760065E9F0 /* Main.storyboard in Resources */,
+				AFD787B422BCC0F600528574 /* AMajor.mp3 in Resources */,
+				AF17E5CB23DA207F00AAA276 /* D3_1.wav in Resources */,
+				969AF13B22C90BDF001C172B /* Second slide.wav in Resources */,
+				AF3C18EF23D6213500C9FD8B /* G#.wav in Resources */,
+				AF3C18E623D6212200C9FD8B /* C4.wav in Resources */,
+				AF17E5D023DA219C00AAA276 /* G3_2.wav in Resources */,
+				AF4EEEA022C96A83006E41B6 /* F#Minor.mp3 in Resources */,
+				AF3C18FA23D6214B00C9FD8B /* G#4.wav in Resources */,
+				AF7AC13823D63B7B008663B6 /* G3.wav in Resources */,
+				AF7AC13B23D63C0C008663B6 /* E2.wav in Resources */,
+				AF3C18E723D6212200C9FD8B /* D.wav in Resources */,
+				969AF13C22C90BDF001C172B /* First slide.wav in Resources */,
+				AF17E5CC23DA207F00AAA276 /* B3_3.wav in Resources */,
+				AF4EEE9822C9635F006E41B6 /* FMajor.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +616,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F4084F5F03E3D5FF4A951B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guitar_02/Pods-Guitar_02-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guitar_02/Pods-Guitar_02-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Guitar_02/Pods-Guitar_02-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8EE7B8DE27AF026210B185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guitar_02-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6272DB642D4B40C28BB7FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guitar_02UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6734A9859DA8D54B4A5B0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guitar_02Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF17DFEE225A16760065E9F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CB352822BAB0060020F702 /* RTableViewCell.swift in Sources */,
+				F102372923F0AD0F0033D41B /* NodesData.swift in Sources */,
+				AF53F30C228606D500CD3ADD /* F#minorViewController.swift in Sources */,
+				AF53F3022285FBD000CD3ADD /* LessonsViewController.swift in Sources */,
+				AF2DEC41229E7EAC00548492 /* FsMinorViewController.swift in Sources */,
+				AF53F312228608F800CD3ADD /* G#majorViewController.swift in Sources */,
+				F102371C23EEC2E40033D41B /* Item.swift in Sources */,
+				AF17E02B2267A5EC0065E9F0 /* LessonViewController.swift in Sources */,
 				AF17DFF8225A16760065E9F0 /* ViewController.swift in Sources */,
+				F102371D23EEC2E40033D41B /* Category.swift in Sources */,
+				AF53F30E2286074500CD3ADD /* GmajorViewController.swift in Sources */,
+				F102372123EF181E0033D41B /* SwipeTableViewController.swift in Sources */,
+				AF848DEA23CCFA7C0042F9C3 /* Extension2.swift in Sources */,
+				AF53F3102286084100CD3ADD /* GminorViewController.swift in Sources */,
+				AF53F30A2286063000CD3ADD /* FmajorViewController.swift in Sources */,
+				AF30FE4B23D626A9006E12A1 /* Exit+Extension.swift in Sources */,
+				F102372323EF181E0033D41B /* CategoryViewController.swift in Sources */,
+				96CB352A22BAB3290020F702 /* PlayViewController.swift in Sources */,
+				F102372723EF68FA0033D41B /* SongsTableViewController.swift in Sources */,
+				AF53F306228601D300CD3ADD /* BminorViewController.swift in Sources */,
+				AF7E107C2268F2F70096CB14 /* RecordViewController.swift in Sources */,
+				AF53F3082286054A00CD3ADD /* CmajorViewController.swift in Sources */,
+				AF848DE823CCA2A90042F9C3 /* Extension+UIViewControler .swift in Sources */,
+				96CB352622BAAB110020F702 /* RecordingListViewController.swift in Sources */,
+				AF17E0292267A42C0065E9F0 /* GuitarViewController.swift in Sources */,
 				AF17DFF6225A16760065E9F0 /* AppDelegate.swift in Sources */,
+				F102372523EF1D2C0033D41B /* RecordingViewController.swift in Sources */,
+				96CB352D22BBE6220020F702 /* DB.swift in Sources */,
+				AF53F3042285FDBB00CD3ADD /* AminorViewController.swift in Sources */,
+				AFD787A922BCB49200528574 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,40 +909,47 @@
 		};
 		AF17E01B225A16780065E9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D2B27BACA2BB6F5AFB9DBF /* Pods-Guitar_02.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYJ95943RN;
 				INFOPLIST_FILE = Guitar_02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Guitar-02";
+				PRODUCT_BUNDLE_IDENTIFIER = "Guiter-02";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AF17E01C225A16780065E9F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86034310FC9688543F178511 /* Pods-Guitar_02.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYJ95943RN;
 				INFOPLIST_FILE = Guitar_02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Guitar-02";
+				PRODUCT_BUNDLE_IDENTIFIER = "Guiter-02";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		AF17E01E225A16780065E9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B502767C3B2550FADD7443A /* Pods-Guitar_02Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +970,7 @@
 		};
 		AF17E01F225A16780065E9F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3802C83CE67B8D86480322 /* Pods-Guitar_02Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +991,7 @@
 		};
 		AF17E021225A16780065E9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E4180ADEAC1292DF27F5F1 /* Pods-Guitar_02UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +1011,7 @@
 		};
 		AF17E022225A16780065E9F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8FDC51F188A19583013D12 /* Pods-Guitar_02UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
